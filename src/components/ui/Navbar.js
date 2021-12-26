@@ -1,9 +1,17 @@
+import { useContext } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../auth/authContext";
+import { types } from "../../types";
 
 const Navbar = () => {
+  const { user, dispatch } = useContext(AuthContext);
   const navigate = useNavigate();
 
   const handleLogout = () => {
+    const action = {
+      type: types.logout,
+    };
+    dispatch(action);
     navigate("/login", { replace: true });
   };
 
@@ -41,7 +49,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="flex items-center gap-4">
-        <h3 className="text-cyan-500 font-semibold">Miltoncodeyt</h3>
+        <h3 className="text-cyan-500 font-semibold">{user.name}</h3>
         <button
           className="px-2 py-1 | bg-sky-900 text-sky-300 | rounded-md | hover:bg-sky-300 hover:text-sky-900"
           onClick={handleLogout}

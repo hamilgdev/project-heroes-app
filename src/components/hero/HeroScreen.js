@@ -7,12 +7,11 @@ const HeroScreen = () => {
   const { heroId } = useParams();
 
   const hero = useMemo(() => getHeroById(heroId), [heroId]);
-  const { id, superhero, publisher, alter_ego, first_appearance, characters } =
-    hero;
-
   if (!hero) {
     return <Navigate to="/" />;
   }
+  const { id, superhero, publisher, alter_ego, first_appearance, characters } =
+    hero;
 
   const pathImage = `/assets/img/${id}.jpg`;
 
