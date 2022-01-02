@@ -23,9 +23,9 @@ const SearchScreen = () => {
 
   return (
     <section className="my-4">
-      <h2 className="text-xl text-gray-600 text-center">
+      <h1 className="text-xl text-gray-600 text-center">
         <strong>Search Hero</strong> | 🦸‍♀️
-      </h2>
+      </h1>
       <form
         className="flex gap-4 my-4 flex-col sm:flex-row max-w-md m-auto text-center"
         onSubmit={handleSearch}

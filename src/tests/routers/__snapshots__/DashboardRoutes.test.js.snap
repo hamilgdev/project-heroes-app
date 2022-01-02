@@ -1,0 +1,1115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <DashboardRoutes /> should diaply correctly - DC 1`] = `
+Array [
+  <nav
+    className="flex justify-between w-full py-2 px-4 | bg-slate-800 text-slate-400"
+  >
+    <ul
+      className="flex items-center gap-4"
+    >
+      <li>
+        <a
+          className="text-white"
+          href="/"
+          onClick={[Function]}
+        >
+          Asoiciaciones
+        </a>
+      </li>
+      <li>
+        <a
+          className=""
+          href="/marvel"
+          onClick={[Function]}
+        >
+          Marvel
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current="page"
+          className="text-cyan-500"
+          href="/dc"
+          onClick={[Function]}
+        >
+          DC
+        </a>
+      </li>
+      <li>
+        <a
+          className=""
+          href="/search"
+          onClick={[Function]}
+        >
+          Search
+        </a>
+      </li>
+    </ul>
+    <div
+      className="flex items-center gap-4"
+    >
+      <h3
+        className="text-cyan-500 font-semibold"
+      >
+        Miltoncodeyt
+      </h3>
+      <button
+        className="px-2 py-1 | bg-sky-900 text-sky-300 | rounded-md | hover:bg-sky-300 hover:text-sky-900"
+        onClick={[Function]}
+      >
+        Logout
+      </button>
+    </div>
+  </nav>,
+  <div
+    className="px-4 xl:px-0 | lg:max-w-screen-lg xl:max-w-screen-xl | my-0 mx-auto"
+  >
+    <section
+      className="my-4"
+    >
+      <h1
+        className="text-center font-semibold text-xl text-gray-600"
+      >
+        Heros DC
+      </h1>
+      <hr
+        className="text-gray-300 mt-2 mb-4"
+      />
+      <div
+        className="flex items-center justify-center flex-col gap-4 | sm:grid sm:justify-items-center sm:grid-cols-3 md:grid-cols-2 sm:justify-items-stretch xl:grid-cols-3"
+      >
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Batman"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/dc-batman.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Batman
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                DC Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Bruce Wayne
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Detective Comics #27
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/dc-batman"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Superman"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/dc-superman.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Superman
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                DC Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Kal-El
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Action Comics #1
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/dc-superman"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Flash"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/dc-flash.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Flash
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                DC Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Jay Garrick
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Jay Garrick, Barry Allen, Wally West, Bart Allen
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Flash Comics #1
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/dc-flash"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Green Lantern"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/dc-green.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Green Lantern
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                DC Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Alan Scott
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                All-American Comics #16
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/dc-green"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Green Arrow"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/dc-arrow.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Green Arrow
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                DC Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Oliver Queen
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                More Fun Comics #73
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/dc-arrow"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Wonder Woman"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/dc-wonder.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Wonder Woman
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                DC Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Princess Diana
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                All Star Comics #8
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/dc-wonder"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Martian Manhunter"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/dc-martian.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Martian Manhunter
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                DC Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                J'onn J'onzz
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Martian Manhunter
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Detective Comics #225
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/dc-martian"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Robin/Nightwing"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/dc-robin.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Robin/Nightwing
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                DC Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Dick Grayson
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Detective Comics #38
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/dc-robin"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Blue Beetle"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/dc-blue.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Blue Beetle
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                DC Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Dan Garret
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Dan Garret, Ted Kord, Jaime Reyes
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Mystery Men Comics #1
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/dc-blue"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Black Canary"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/dc-black.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Black Canary
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                DC Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Dinah Drake
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Dinah Drake, Dinah Lance
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Flash Comics #86
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/dc-black"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>,
+]
+`;
+
+exports[`Tests in <DashboardRoutes /> should display correctly - Marvel 1`] = `
+Array [
+  <nav
+    className="flex justify-between w-full py-2 px-4 | bg-slate-800 text-slate-400"
+  >
+    <ul
+      className="flex items-center gap-4"
+    >
+      <li>
+        <a
+          className="text-white"
+          href="/"
+          onClick={[Function]}
+        >
+          Asoiciaciones
+        </a>
+      </li>
+      <li>
+        <a
+          className=""
+          href="/marvel"
+          onClick={[Function]}
+        >
+          Marvel
+        </a>
+      </li>
+      <li>
+        <a
+          className=""
+          href="/dc"
+          onClick={[Function]}
+        >
+          DC
+        </a>
+      </li>
+      <li>
+        <a
+          className=""
+          href="/search"
+          onClick={[Function]}
+        >
+          Search
+        </a>
+      </li>
+    </ul>
+    <div
+      className="flex items-center gap-4"
+    >
+      <h3
+        className="text-cyan-500 font-semibold"
+      >
+        Miltoncodeyt
+      </h3>
+      <button
+        className="px-2 py-1 | bg-sky-900 text-sky-300 | rounded-md | hover:bg-sky-300 hover:text-sky-900"
+        onClick={[Function]}
+      >
+        Logout
+      </button>
+    </div>
+  </nav>,
+  <div
+    className="px-4 xl:px-0 | lg:max-w-screen-lg xl:max-w-screen-xl | my-0 mx-auto"
+  >
+    <section
+      className="my-4"
+    >
+      <h1
+        className="text-center font-semibold text-xl text-gray-600"
+      >
+        Heros Marvel
+      </h1>
+      <hr
+        className="text-gray-300 mt-2 mb-4"
+      />
+      <div
+        className="flex items-center justify-center flex-col gap-4 | sm:grid sm:justify-items-center sm:grid-cols-3 md:grid-cols-2 sm:justify-items-stretch xl:grid-cols-3"
+      >
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Spider Man"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/marvel-spider.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Spider Man
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                Marvel Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Peter Parker
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Amazing Fantasy #15
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/marvel-spider"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Captain America"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/marvel-captain.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Captain America
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                Marvel Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Steve Rogers
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Captain America Comics #1
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/marvel-captain"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Iron Man"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/marvel-iron.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Iron Man
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                Marvel Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Tony Stark
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Tales of Suspense #39
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/marvel-iron"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Thor"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/marvel-thor.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Thor
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                Marvel Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Thor Odinson
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Journey into Myster #83
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/marvel-thor"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Hulk"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/marvel-hulk.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Hulk
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                Marvel Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Bruce Banner
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                The Incredible Hulk #1
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/marvel-hulk"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Wolverine"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/marvel-wolverine.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Wolverine
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                Marvel Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                James Howlett
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                The Incredible Hulk #180
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/marvel-wolverine"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Daredevil"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/marvel-daredevil.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Daredevil
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                Marvel Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Matthew Michael Murdock
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Daredevil #1
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/marvel-daredevil"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Hawkeye"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/marvel-hawkeye.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Hawkeye
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                Marvel Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Clinton Francis Barton
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Tales of Suspense #57
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/marvel-hawkeye"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Cyclops"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/marvel-cyclops.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Cyclops
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                Marvel Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Scott Summers
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                X-Men #1
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/marvel-cyclops"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+        <article
+          className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch"
+        >
+          <img
+            alt="Silver Surfer"
+            className="h-80 object-cover | lg:h-64"
+            src="/assets/img/marvel-silver.jpg"
+          />
+          <div
+            className="w-full flex flex-col justify-between p-4 flex-1 | bg-gray-100"
+          >
+            <h3
+              className="text-xl font-bold text-gray-700"
+            >
+              Silver Surfer
+            </h3>
+            <div>
+              <p
+                className="text-base font-semibold text-gray-500"
+              >
+                Marvel Comics
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                Norrin Radd
+              </p>
+              <p
+                className="text-sm text-gray-500"
+              >
+                The Fantastic Four #48
+              </p>
+            </div>
+            <div
+              className="my-4"
+            >
+              <a
+                className="text-sky-600 hover:text-sky-300"
+                href="/hero/marvel-silver"
+                onClick={[Function]}
+              >
+                More info...
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>,
+]
+`;
