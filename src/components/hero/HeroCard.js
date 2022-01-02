@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { getPathImage } from "../../helpers/getPathImage";
 
 const HeroCard = ({
   id,
@@ -8,12 +9,10 @@ const HeroCard = ({
   first_appearance,
   characters,
 }) => {
-  const pathImage = `/assets/img/${id}.jpg`;
-
   return (
     <article className="flex justify-center flex-col items-center h-full max-w-[12rem] shadow-sm hover:shadow-md overflow-hidden rounded-lg | md:max-w-none md:flex-row md:items-stretch">
       <img
-        src={pathImage}
+        src={getPathImage(`./${id}.jpg`)}
         className="h-80 object-cover | lg:h-64"
         alt={superhero}
       />

@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import { Navigate, useParams, useNavigate } from "react-router-dom";
 import { getHeroById } from "../../helpers/getHeroById";
+import { getPathImage } from "../../helpers/getPathImage";
 
 const HeroScreen = () => {
   const navigate = useNavigate();
@@ -13,8 +14,6 @@ const HeroScreen = () => {
   const { id, superhero, publisher, alter_ego, first_appearance, characters } =
     hero;
 
-  const pathImage = `/assets/img/${id}.jpg`;
-
   const handleReturn = () => {
     navigate(-1);
   };
@@ -22,7 +21,11 @@ const HeroScreen = () => {
   return (
     <section className="my-4 | sm:flex sm:gap-4 ">
       <div className="max-w-fit m-auto p-2 border-2 border-gray-200 rounded-lg">
-        <img className="rounded-lg max-h-96" src={pathImage} alt={superhero} />
+        <img
+          className="rounded-lg max-h-96"
+          src={getPathImage(`./${id}.jpg`)}
+          alt={superhero}
+        />
       </div>
       <div className="flex-1 mt-4 text-center | sm:text-left">
         <h2 className="text-xl font-bold text-gray-700 mb-4">{superhero}</h2>
