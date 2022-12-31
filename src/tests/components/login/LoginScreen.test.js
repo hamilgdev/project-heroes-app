@@ -35,7 +35,7 @@ describe("Tests in <LoginScreen />", () => {
     wrapper.find("button").prop("onClick")();
     expect(contextValue.dispatch).toHaveBeenCalledWith({
       type: types.login,
-      payload: { name: "miltoncode" },
+      payload: { name: "Welcome" },
     });
     expect(mockNavigate).toHaveBeenCalledWith("/marvel", { replace: true });
   });

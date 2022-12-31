@@ -1,11 +1,11 @@
-import { mount } from "enzyme";
-import { AuthContext } from "../../auth/authContext";
-import AppRouter from "../../routers/AppRouter";
+import { mount } from 'enzyme';
+import { AuthContext } from '../../auth/authContext';
+import AppRouter from '../../routers/AppRouter';
 
-describe("Tests in <AppRouter />", () => {
-  test("should show login if not authenticated", () => {
+describe('Tests in <AppRouter />', () => {
+  test('should show login if not authenticated', () => {
     const contextValue = {
-      user: { logged: false },
+      user: { logged: false }
     };
     const wrapper = mount(
       <AuthContext.Provider value={contextValue}>
@@ -14,12 +14,12 @@ describe("Tests in <AppRouter />", () => {
     );
 
     expect(wrapper).toMatchSnapshot();
-    expect(wrapper.find("h2").text().trim()).toBe("Login");
+    expect(wrapper.find('h2').text().trim()).toBe('Login');
   });
 
-  test("should show the component Marvel if authenticated", () => {
+  test('should show the component Marvel if authenticated', () => {
     const contextValue = {
-      user: { logged: true, name: "Miltoncodeyt" },
+      user: { logged: true, name: 'Welcomet' }
     };
     const wrapper = mount(
       <AuthContext.Provider value={contextValue}>
@@ -28,6 +28,6 @@ describe("Tests in <AppRouter />", () => {
     );
 
     expect(wrapper).toMatchSnapshot();
-    expect(wrapper.find("nav").exists()).toBe(true);
+    expect(wrapper.find('nav').exists()).toBe(true);
   });
 });

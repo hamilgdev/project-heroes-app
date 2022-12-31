@@ -1,36 +1,36 @@
-const { mount } = require("enzyme");
-const { MemoryRouter } = require("react-router-dom");
-const { AuthContext } = require("../../auth/authContext");
-const { default: DashboardRouter } = require("../../routers/DashboardRouter");
+const { mount } = require('enzyme');
+const { MemoryRouter } = require('react-router-dom');
+const { AuthContext } = require('../../auth/authContext');
+const { default: DashboardRouter } = require('../../routers/DashboardRouter');
 
-describe("Tests in <DashboardRoutes />", () => {
+describe('Tests in <DashboardRoutes />', () => {
   const contextValue = {
-    user: { logged: true, name: "Miltoncodeyt" },
+    user: { logged: true, name: 'Welcomet' }
   };
-  test("should display correctly - Marvel", () => {
+  test('should display correctly - Marvel', () => {
     const wrapper = mount(
       <AuthContext.Provider value={contextValue}>
-        <MemoryRouter initialEntries={["/"]}>
+        <MemoryRouter initialEntries={['/']}>
           <DashboardRouter />
         </MemoryRouter>
       </AuthContext.Provider>
     );
 
     expect(wrapper).toMatchSnapshot();
-    expect(wrapper.find("h1").text().trim()).toBe("Heros Marvel");
-    expect(wrapper.find("nav h3").text().trim()).toBe("Miltoncodeyt");
+    expect(wrapper.find('h1').text().trim()).toBe('Heros Marvel');
+    expect(wrapper.find('nav h3').text().trim()).toBe('Welcomet');
   });
 
-  test("should diaply correctly - DC", () => {
+  test('should diaply correctly - DC', () => {
     const wrapper = mount(
       <AuthContext.Provider value={contextValue}>
-        <MemoryRouter initialEntries={["/dc"]}>
+        <MemoryRouter initialEntries={['/dc']}>
           <DashboardRouter />
         </MemoryRouter>
       </AuthContext.Provider>
     );
 
     expect(wrapper).toMatchSnapshot();
-    expect(wrapper.find("h1").text().trim()).toBe("Heros DC");
+    expect(wrapper.find('h1').text().trim()).toBe('Heros DC');
   });
 });

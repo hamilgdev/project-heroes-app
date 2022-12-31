@@ -11,7 +11,7 @@ const LoginScreen = () => {
   const handleLogin = () => {
     const action = {
       type: types.login,
-      payload: { name: "miltoncode" },
+      payload: { name: "Welcome" },
     };
 
     dispatch(action);

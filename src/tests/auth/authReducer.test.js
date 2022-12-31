@@ -1,8 +1,8 @@
-import { authReducer } from "../../auth/authReducer";
-import { types } from "../../types";
+import { authReducer } from '../../auth/authReducer';
+import { types } from '../../types';
 
-describe("Tests in AuthReducer", () => {
-  test("should return the state by default", () => {
+describe('Tests in AuthReducer', () => {
+  test('should return the state by default', () => {
     const state = authReducer({ logged: false }, {});
     expect(state).toEqual({ logged: false });
   });
@@ -10,22 +10,22 @@ describe("Tests in AuthReducer", () => {
   test('should authenticate and put the "name" of the user', () => {
     const action = {
       type: types.login,
-      payload: { name: "Miltoncodeyt" },
+      payload: { name: 'Welcome' }
     };
     // initial state
     const state = authReducer({ logged: false }, action);
     expect(state).toEqual({
       logged: true,
-      name: "Miltoncodeyt",
+      name: 'Welcome'
     });
   });
 
-  test("should delete the name of the user and logged in false", () => {
+  test('should delete the name of the user and logged in false', () => {
     const action = {
-      type: types.logout,
+      type: types.logout
     };
 
-    const state = authReducer({ logged: true, name: "Miltoncodeyt" }, action);
+    const state = authReducer({ logged: true, name: 'Welcomet' }, action);
     expect(state).toEqual({ logged: false });
   });
 });
